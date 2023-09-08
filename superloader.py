@@ -109,5 +109,3 @@ class ObjectNetDataset(VisionDataset):
 
 
 x = ObjectNetDataset(root = "/storage/dmayo2/datasets/objectnet/objectnet-1.0/images", dataset_json_file = "objectnet_master.json", SON_json = "SON_master.json", img_format = "png")
-print(len(x))
-print(x[0])
